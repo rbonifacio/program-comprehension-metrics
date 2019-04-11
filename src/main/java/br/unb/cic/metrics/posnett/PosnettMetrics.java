@@ -7,6 +7,10 @@ import java.util.*;
 
 public class PosnettMetrics {
 
+    public static double comprehensionDegree(MethodDeclaration method) {
+        return 8.87 -0.003 * volume(method) + 0.40 * lines(method) - 1.5 * entropy(method);
+    }
+
     public static int lines(MethodDeclaration method) {
         int begin = method.getBegin().get().line;
         int end = method.getEnd().get().line;
