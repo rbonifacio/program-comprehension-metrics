@@ -34,7 +34,7 @@ $ java -jar comprehension.jar --file <file-path>
 
 The content of the file should be just a Java method
 body (and not an entire Java class). Alternatively,
-you can the program using:
+you can execute the program using:
 
 ```
 $ java -jar comprehension.jar "<method-body>"
