@@ -29,7 +29,7 @@ $ mvn test
 Execute
 
 ```
-$ java -jar comprehension --file <file-path>
+$ java -jar comprehension.jar --file <file-path>
 ```
 
 The content of the file should be just a Java method
@@ -37,7 +37,7 @@ body (and not an entire Java class). Alternatively,
 you can the program using:
 
 ```
-$ java -jar comprehension "<method-body>"
+$ java -jar comprehension.jar "<method-body>"
 ```
 
 Enjoy it. 
