@@ -24,7 +24,6 @@ public class PosnettMetrics {
         return length(method) * log2(vocabulary(method));
     }
 
-
     public static double entropy(MethodDeclaration method) {
         HashMap<String, Double> occurrences = new HashMap<>();
         Iterator<JavaToken> it = method.getBody().get().getTokenRange().get().iterator();
@@ -32,7 +31,7 @@ public class PosnettMetrics {
         while(it.hasNext()) {
             JavaToken token = it.next();
 
-            if(token.getText().equals(" ") || token.getText().equals("\n")) {
+            if(token.getText().equals(" ") || token.getText().equals("\n") || token.getText().equals("\t")) {
                 continue;
             }
 

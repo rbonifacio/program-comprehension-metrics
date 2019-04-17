@@ -3,7 +3,6 @@ package be.unb.cic.metrics.posnett;
 import br.unb.cic.metrics.posnett.Parser;
 import br.unb.cic.metrics.posnett.PosnettMetrics;
 import com.github.javaparser.ast.body.MethodDeclaration;
-import javafx.geometry.Pos;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -29,6 +28,16 @@ public class BicoTest {
             "}";
 
 
+
+    @Test
+    public void testSimpleReadability() {
+        MethodDeclaration method1 = Parser.parseMethodDeclaration(code1);
+        MethodDeclaration method2 = Parser.parseMethodDeclaration(code2);
+
+        Assert.assertEquals(0.1885, PosnettMetrics.simpleReadability(method1), 0.001);
+        Assert.assertEquals(0.0209, PosnettMetrics.simpleReadability(method2), 0.001);
+    }
+
     @Test
     public void testDegreeOfComprehension() {
         MethodDeclaration method1 = Parser.parseMethodDeclaration(code1);
@@ -36,10 +45,8 @@ public class BicoTest {
 
         Assert.assertEquals(1.457, PosnettMetrics.comprehensionDegree(method1), 0.001);
         Assert.assertEquals(3.845, PosnettMetrics.comprehensionDegree(method2), 0.001);
-
-        System.out.println(PosnettMetrics.simpleReadability(method1));
-        System.out.println(PosnettMetrics.simpleReadability(method2));
     }
+
     @Test
     public void testLinesOfCode() {
         MethodDeclaration method1 = Parser.parseMethodDeclaration(code1);

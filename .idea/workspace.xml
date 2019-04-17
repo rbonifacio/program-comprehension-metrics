@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="707c9e65-6184-447a-9ece-1c0ac9629e3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/PosnettMetrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/PosnettMetrics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/unb/cic/metrics/posnett/BicoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/unb/cic/metrics/posnett/BicoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -26,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="432">
               <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,16 +55,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/PosnettMetrics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="417">
+              <caret line="33" column="104" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#611#612#0" expanded="true" />
                 <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#3300#3301#0" expanded="true" />
+                <element signature="e#3331#3332#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="567">
               <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/be/unb/cic/metrics/posnett/BicoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="460">
+              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,9 +146,9 @@
         <option value="$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/Parser.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/unb/cic/metrics/posnett/PosnettMetricsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/be/unb/cic/metrics/posnett/BicoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/PosnettMetrics.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -234,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555508183749" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555508976030" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -256,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BicoTest.testDegreeOfComprehension">
+  <component name="RunManager" selected="JUnit.BicoTest.testSimpleReadability">
     <configuration name="BicoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="posnett" />
       <extension name="coverage">
@@ -303,7 +305,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BicoTest.testLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BicoTest.testSimpleReadability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="posnett" />
       <extension name="coverage">
         <pattern>
@@ -313,7 +315,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.unb.cic.metrics.posnett" />
       <option name="MAIN_CLASS_NAME" value="be.unb.cic.metrics.posnett.BicoTest" />
-      <option name="METHOD_NAME" value="testLength" />
+      <option name="METHOD_NAME" value="testSimpleReadability" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,18 +339,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BicoTest" />
-      <item itemvalue="JUnit.BicoTest.testLength" />
       <item itemvalue="JUnit.BicoTest.testVolume" />
       <item itemvalue="JUnit.BicoTest.testEntropy" />
       <item itemvalue="JUnit.BicoTest.testDegreeOfComprehension" />
+      <item itemvalue="JUnit.BicoTest.testSimpleReadability" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BicoTest.testSimpleReadability" />
         <item itemvalue="JUnit.BicoTest.testDegreeOfComprehension" />
         <item itemvalue="JUnit.BicoTest.testEntropy" />
         <item itemvalue="JUnit.BicoTest" />
         <item itemvalue="JUnit.BicoTest.testVolume" />
-        <item itemvalue="JUnit.BicoTest.testLength" />
       </list>
     </recent_temporary>
   </component>
@@ -365,23 +367,11 @@
       <workItem from="1554967169456" duration="10084000" />
       <workItem from="1555063345974" duration="217000" />
       <workItem from="1555166182959" duration="3000" />
-      <workItem from="1555498616470" duration="7138000" />
+      <workItem from="1555498616470" duration="7736000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BicoTest_testDegreeOfComprehension - 2019.04.17 at 15h 19m 38s.xml">
-      <configuration name="BicoTest.testDegreeOfComprehension" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BicoTest_testDegreeOfComprehension - 2019.04.17 at 15h 20m 11s.xml">
-      <configuration name="BicoTest.testDegreeOfComprehension" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BicoTest_testDegreeOfComprehension - 2019.04.17 at 15h 20m 20s.xml">
-      <configuration name="BicoTest.testDegreeOfComprehension" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BicoTest_testDegreeOfComprehension - 2019.04.17 at 15h 20m 39s.xml">
-      <configuration name="BicoTest.testDegreeOfComprehension" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BicoTest_testDegreeOfComprehension - 2019.04.17 at 15h 20m 50s.xml">
       <configuration name="BicoTest.testDegreeOfComprehension" configurationId="JUnit" />
     </history-entry>
@@ -400,15 +390,27 @@
     <history-entry file="BicoTest_testDegreeOfComprehension - 2019.04.17 at 15h 32m 24s.xml">
       <configuration name="BicoTest.testDegreeOfComprehension" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BicoTest_testDegreeOfComprehension - 2019.04.17 at 15h 42m 53s.xml">
+      <configuration name="BicoTest.testDegreeOfComprehension" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BicoTest_testSimpleReadability - 2019.04.17 at 15h 47m 37s.xml">
+      <configuration name="BicoTest.testSimpleReadability" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BicoTest_testSimpleReadability - 2019.04.17 at 15h 48m 30s.xml">
+      <configuration name="BicoTest.testSimpleReadability" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BicoTest_testSimpleReadability - 2019.04.17 at 15h 48m 46s.xml">
+      <configuration name="BicoTest.testSimpleReadability" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17442000" />
+    <option name="totallyTimeSpent" value="18040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2048" height="1152" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24975075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24975075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,7 +419,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32994455" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32994455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,7 +427,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32809612" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32809612" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32994455" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -447,16 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3108">
           <caret line="187" column="37" selection-start-line="187" selection-start-column="37" selection-end-line="187" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,32 +494,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/PosnettMetrics.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#3300#3301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/unb/cic/metrics/posnett/BicoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="567">
           <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -535,10 +511,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="432">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/unb/cic/metrics/posnett/BicoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/unb/cic/metrics/posnett/PosnettMetrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="33" column="104" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#3331#3332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
