@@ -14,12 +14,11 @@ Just clone this repository and execute the following maven command.
 $ mvn clean compile assembly:single    
 ```
 
-This command will generate a file comprehension-1.0.1-SNAPSHOT.jar in the target directory. Move this
+This command will generate a file comprehension-<version>.jar in the target directory. Move this
 file to a more suitable place, and rename it to comprehension.jar (just to simplify the things a bit).
 
-If you want to write more metrics, write more test cases, and refactor the source code,
+If you want to write more metrics, write more test cases, or refactor the source code,
 please, go ahead.  I will be happy with this. To run the test case, you just have to execute:
-
 ```
 $ mvn test
 ```
