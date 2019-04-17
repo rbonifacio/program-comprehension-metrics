@@ -7,8 +7,11 @@ import java.util.*;
 
 public class PosnettMetrics {
 
+    public static double simpleReadability(MethodDeclaration method) {
+        return 1 / (1+Math.pow(Math.E, comprehensionDegree(method)));
+    }
     public static double comprehensionDegree(MethodDeclaration method) {
-        return 8.87 -0.003 * volume(method) + 0.40 * lines(method) - 1.5 * entropy(method);
+        return 8.87 -0.033 * volume(method) + 0.40 * lines(method) - 1.5 * entropy(method);
     }
 
     public static int lines(MethodDeclaration method) {
@@ -23,33 +26,31 @@ public class PosnettMetrics {
 
 
     public static double entropy(MethodDeclaration method) {
-        HashMap<String, Double> occurences = new HashMap<>();
+        HashMap<String, Double> occurrences = new HashMap<>();
         Iterator<JavaToken> it = method.getBody().get().getTokenRange().get().iterator();
 
         while(it.hasNext()) {
             JavaToken token = it.next();
 
-            if(token.getText().equals(" ")) {
+            if(token.getText().equals(" ") || token.getText().equals("\n")) {
                 continue;
             }
 
             double value = 1;
             String key = token.getText();
-            if(occurences.containsKey(key)) {
-                value = occurences.get(key) + 1;
+            if(occurrences.containsKey(key)) {
+                value = occurrences.get(key) + 1;
             }
-            occurences.put(key, value);
+            occurrences.put(key, value);
         }
 
-        double total = occurences.values().stream().reduce(Double::sum).get();
-
+        double total = occurrences.values().stream().reduce(Double::sum).get();
         double sum = 0;
 
-        for(String x : occurences.keySet()) {
-            double pX = occurences.get(x) / total;
+        for(String x : occurrences.keySet()) {
+            double pX = occurrences.get(x) / total;
             sum += pX * log2(pX);
         }
-
         return -sum;
     }
 
@@ -58,7 +59,6 @@ public class PosnettMetrics {
         List<String> operands = new ArrayList<>();
 
         collectTokens(method, operators, operands);
-
         return operators.size() + operands.size();
     }
 

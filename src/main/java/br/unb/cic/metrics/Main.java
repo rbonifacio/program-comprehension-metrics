@@ -19,7 +19,7 @@ public class Main {
             try {
                 String contents = new String(Files.readAllBytes(Paths.get(args[1])));
                 System.out.println(contents);
-                System.out.println(PosnettMetrics.entropy(Parser.parseMethodDeclaration(contents)));
+                System.out.println(PosnettMetrics.simpleReadability(Parser.parseMethodDeclaration(contents)));
             }
             catch(Exception e) {
                 System.err.print(e.getMessage());
